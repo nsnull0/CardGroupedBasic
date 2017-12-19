@@ -23,6 +23,8 @@
 		C16A36D31FE87AB10056CB8D /* HeaderCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C16A36D21FE87AB10056CB8D /* HeaderCardCell.xib */; };
 		C16A36D61FE8952C0056CB8D /* Extension++.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A36D51FE8952C0056CB8D /* Extension++.swift */; };
 		C16A36D81FE896F10056CB8D /* CardUITableViewCellUnTap.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A36D71FE896F10056CB8D /* CardUITableViewCellUnTap.swift */; };
+		C16A36DA1FE8A0E10056CB8D /* FooterCardCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16A36D91FE8A0E10056CB8D /* FooterCardCell.swift */; };
+		C16A36DE1FE8A11C0056CB8D /* FooterCardCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C16A36DD1FE8A11C0056CB8D /* FooterCardCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		C16A36D21FE87AB10056CB8D /* HeaderCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderCardCell.xib; sourceTree = "<group>"; };
 		C16A36D51FE8952C0056CB8D /* Extension++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension++.swift"; sourceTree = "<group>"; };
 		C16A36D71FE896F10056CB8D /* CardUITableViewCellUnTap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardUITableViewCellUnTap.swift; sourceTree = "<group>"; };
+		C16A36D91FE8A0E10056CB8D /* FooterCardCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterCardCell.swift; sourceTree = "<group>"; };
+		C16A36DD1FE8A11C0056CB8D /* FooterCardCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterCardCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -180,6 +184,7 @@
 				C16A36CD1FE842320056CB8D /* CardUITableViewCell.swift */,
 				C16A36D71FE896F10056CB8D /* CardUITableViewCellUnTap.swift */,
 				C16A36D01FE878F20056CB8D /* HeaderCardCell.swift */,
+				C16A36D91FE8A0E10056CB8D /* FooterCardCell.swift */,
 			);
 			path = "UI Object List";
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				C16A36D21FE87AB10056CB8D /* HeaderCardCell.xib */,
+				C16A36DD1FE8A11C0056CB8D /* FooterCardCell.xib */,
 			);
 			path = "Interface Builder";
 			sourceTree = "<group>";
@@ -302,6 +308,7 @@
 				C16A369C1FE83E090056CB8D /* LaunchScreen.storyboard in Resources */,
 				C16A36991FE83E090056CB8D /* Assets.xcassets in Resources */,
 				C16A36D31FE87AB10056CB8D /* HeaderCardCell.xib in Resources */,
+				C16A36DE1FE8A11C0056CB8D /* FooterCardCell.xib in Resources */,
 				C16A36941FE83E090056CB8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -331,6 +338,7 @@
 				C16A36971FE83E090056CB8D /* CGB.xcdatamodeld in Sources */,
 				C16A36D81FE896F10056CB8D /* CardUITableViewCellUnTap.swift in Sources */,
 				C16A36D11FE878F20056CB8D /* HeaderCardCell.swift in Sources */,
+				C16A36DA1FE8A0E10056CB8D /* FooterCardCell.swift in Sources */,
 				C16A36CE1FE842320056CB8D /* CardUITableViewCell.swift in Sources */,
 				C16A36C61FE83F3C0056CB8D /* CardManager.swift in Sources */,
 				C16A36C91FE841220056CB8D /* Card.swift in Sources */,

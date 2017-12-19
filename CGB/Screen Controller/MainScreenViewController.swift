@@ -120,6 +120,18 @@ extension MainScreenViewController:UITableViewDataSource, UITableViewDelegate {
         return HeaderCell
     }
     
+    func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        let FooterCell:FooterCardCell = FooterCardCell.instanceFromNib()
+        
+        if (section == 1) {
+            
+            return FooterCell
+        }
+        
+        return nil
+        
+    }
+    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         
@@ -168,4 +180,10 @@ extension MainScreenViewController:UITableViewDataSource, UITableViewDelegate {
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 50
     }
+    
+    func tableView(_ tableView: UITableView, heightForFooterInSection section: Int) -> CGFloat {
+        return section == 1 ? 100 : 0
+    }
+    
+    
 }
